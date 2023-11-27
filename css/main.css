@@ -59,10 +59,11 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  
   header {
     background-color: magenta;
   }
-
+;
   #column-1 {
     background-color: mediumaquamarine;
   }
@@ -73,10 +74,16 @@ footer {
 
   #column-3 {
     background-color: purple;
+    width: 100%;
   }
 
   footer {
     background-color: violet;
+  }
+
+  .col-3 {
+
+    width: 50%;
   }
   
 }
@@ -98,10 +105,15 @@ footer {
 
   #column-3 {
     background-color: hotpink;
+    width: 33.3%;
   }
 
   footer {
     background-color: skyblue;
+  }
+
+  .col-3{
+    width: 33.3%;
   }
    
 }
